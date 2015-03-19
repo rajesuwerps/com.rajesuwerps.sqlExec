@@ -1,0 +1,9 @@
+<Alloy>
+    <View layout="vertical" id="sqlExecView" backgroundColor="#eee">
+        <TextArea id="sql" width="98%" height="60"
+                  backgroundColor="black" color="green" borderColor="#ccc" />
+        <Button id="executeButton" title="execute" onClick="execSql" height="30" width="100" />
+        <Label id="status" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="98%" height="20" color="#444" backgroundColor="#ccc"  />
+        <TextArea id="output" width="98%" height="Ti.UI.FILL" backgroundColor="black" color="green" borderColor="#ccc" />
+    </View>
+</Alloy>

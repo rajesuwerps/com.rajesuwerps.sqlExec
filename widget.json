@@ -1,0 +1,13 @@
+{
+	"id": "com.rajesuwerps.sqlExec",
+	"name": "SQL Executor",
+	"description" : "Sqlite executor window to drop into your app to aide during development",
+	"author": "Rajesuwer PS",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015 by Rajesuwer PS",
+	"license":"MIT License",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}
