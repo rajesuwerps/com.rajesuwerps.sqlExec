@@ -44,7 +44,7 @@ This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/All
 For more on using database in Titanium refer to [Working with a SQLite Database](http://docs.appcelerator.com/titanium/3.0/#!/guide/Working_with_a_SQLite_Database)
 
 ## Changelog
-- 1.0: Inital version.
+- 1.0.1: fix
 
 ## License
 
