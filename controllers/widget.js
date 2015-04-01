@@ -33,7 +33,7 @@ function execSql() {
     outputStr = "";
     log("field count", rs.getFieldCount());
     log("row count", rs.getRowCount());
-    while (rs.isValidRow()) {
+    while (rs && rs.isValidRow()) {
       var fieldValues = [];
       _.times(rs.getFieldCount(), function(n) {
         var val = rs.field(n);
@@ -44,8 +44,8 @@ function execSql() {
       log();
       rs.next();
     }
-    rs.close();
-    conn.close();
+    rs && rs.close();
+    conn && conn.close();
   } else {
     outputStr = "Empty sql";
   }
