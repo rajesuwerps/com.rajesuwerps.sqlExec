@@ -1,11 +1,8 @@
 # com.rajesuwerps.sqlExec
-Appcelerator Titanium Alloy widget for sql execution
 
 [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
 
-This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform.
-
-This is a widget to quickly inspect the SQLite database in your app, during development, by executing SQL commands. You type in the SQL statement, press 'execute' and the result is shown in the view below. You could use it to set up the database, creating tables, and quickly inspect the data that could save you some time and hassle during development.
+This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform. A widget to quickly inspect the SQLite database in your app, during development, by executing SQL commands. You type in the SQL statement, press 'execute' and the result is shown in the view below. You could use it to set up the database, creating tables, and quickly inspect the data that could save you some time and hassle during development.
 
 ## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.rajesuwerps.sqlExec)
 
