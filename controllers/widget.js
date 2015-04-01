@@ -48,6 +48,7 @@ function execSql() {
     conn && conn.close();
   } else {
     outputStr = "Empty sql";
+    
   }
   log("outputstr", outputStr);
   $.output.value = outputStr ? outputStr : "n/a";
